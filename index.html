@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#050505" />
+    <title>Cartas de um Diabo a seu Aprendiz</title>
+    <meta name="description" content="Apresentação literária sobre a obra de C. S. Lewis." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="landing-shell" id="landing">
+      <div class="noise" aria-hidden="true"></div>
+      <button class="book-stage" id="start-button" aria-label="Iniciar apresentação">
+        <span class="book-shadow" aria-hidden="true"></span>
+        <span class="book-image-frame">
+          <span class="cover-art" aria-hidden="true"></span>
+          <span class="cover-copy">
+            <span class="cover-title-small">Cartas de um</span>
+            <strong>diabo</strong>
+            <span class="cover-title-small">a seu aprendiz</span>
+            <span class="cover-divider" aria-hidden="true"></span>
+            <span class="cover-author">C. S.<br />Lewis</span>
+          </span>
+        </span>
+        <span class="start-hint">Clique para iniciar</span>
+      </button>
+    </main>
+
+    <main class="presentation-shell" id="presentation" hidden>
+      <div class="noise" aria-hidden="true"></div>
+      <div class="corner corner-tl" aria-hidden="true">❦</div>
+      <div class="corner corner-tr" aria-hidden="true">❦</div>
+      <div class="corner corner-bl" aria-hidden="true">❦</div>
+      <div class="corner corner-br" aria-hidden="true">❦</div>
+      <div class="engraving engraving-quill" aria-hidden="true">✒</div>
+      <div class="engraving engraving-scroll" aria-hidden="true">❧</div>
+
+      <header class="presentation-header">
+        <button class="cover-link" id="cover-button" aria-label="Voltar à capa">
+          <span aria-hidden="true">✦</span>
+          <span>Cartas de um Diabo a seu Aprendiz</span>
+        </button>
+        <div class="timer" id="timer" role="timer" aria-live="off">
+          <span class="timer-icon" aria-hidden="true">◷</span>
+          <span class="timer-copy">
+            <span id="timer-label">Tempo restante</span>
+            <strong id="timer-value">15:00</strong>
+          </span>
+        </div>
+      </header>
+
+      <section class="slide-viewport" aria-live="polite">
+        <article class="slide-card slide-panel" data-slide="0">
+          <div class="paper-texture" aria-hidden="true"></div>
+          <div class="slide-kicker">
+            <span>Parte 01</span><span class="kicker-line"></span><span>Capa &amp; abertura</span>
+          </div>
+          <div class="slide-one slide-content">
+            <div class="opening-copy">
+              <p class="author-display">C. S. <strong>Lewis</strong></p>
+              <h1>Cartas de um <em>diabo</em><br />a seu aprendiz</h1>
+              <p class="author-line">1942</p>
+              <div class="bio-block">
+                <span class="field-label">Biografia</span>
+                <p><span class="placeholder-text">[INSERIR BREVE BIOGRAFIA DO AUTOR]</span></p>
+              </div>
+            </div>
+            <div class="author-visual">
+              <img class="author-illustration" src="assets/lewis-engraving.webp" alt="Retrato ilustrado de C. S. Lewis escrevendo à mesa" />
+              <span class="photo-caption">Retrato ilustrado · Clive Staples Lewis · 1898—1963</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide-card slide-panel" data-slide="1" hidden>
+          <div class="paper-texture" aria-hidden="true"></div>
+          <div class="slide-kicker">
+            <span>Parte 02</span><span class="kicker-line"></span><span>Sobre a obra</span>
+          </div>
+          <div class="slide-two slide-content">
+            <div class="section-heading">
+              <span class="heading-number">II</span>
+              <div><p class="eyebrow">Contexto literário</p><h1>Sobre a obra</h1></div>
+            </div>
+            <div class="work-grid">
+              <div class="work-feature">
+                <span class="field-label">Objetivo da obra</span>
+                <p><span class="placeholder-text">[INSERIR OBJETIVO DA OBRA]</span></p>
+              </div>
+              <div class="work-meta">
+                <div><span class="field-label">Categoria / gênero</span><p><span class="placeholder-text">[INSERIR GÊNERO]</span></p></div>
+                <div><span class="field-label">Tema central</span><p><span class="placeholder-text">[INSERIR TEMA CENTRAL]</span></p></div>
+              </div>
+              <div class="plot-block">
+                <span class="field-label">Enredo</span>
+                <p><span class="placeholder-text">[INSERIR RESUMO DO ENREDO]</span></p>
+                <p><span class="placeholder-text">[CONTINUAÇÃO DO RESUMO, SE NECESSÁRIO]</span></p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide-card slide-panel" data-slide="2" hidden>
+          <div class="paper-texture" aria-hidden="true"></div>
+          <div class="slide-kicker">
+            <span>Parte 03</span><span class="kicker-line"></span><span>Curiosidades &amp; trechos</span>
+          </div>
+          <div class="slide-three slide-content">
+            <div class="section-heading compact-heading">
+              <span class="heading-number">III</span>
+              <div><p class="eyebrow">Entrelinhas</p><h1>Curiosidades &amp; trechos</h1></div>
+            </div>
+            <div class="curiosity-layout">
+              <div class="curiosity-list">
+                <div class="curiosity-item"><span>01</span><p><span class="placeholder-text">[INSERIR CURIOSIDADE SOBRE O LIVRO OU AUTOR]</span></p></div>
+                <div class="curiosity-item"><span>02</span><p><span class="placeholder-text">[INSERIR CURIOSIDADE SOBRE O LIVRO OU AUTOR]</span></p></div>
+                <div class="curiosity-item"><span>03</span><p><span class="placeholder-text">[INSERIR CURIOSIDADE SOBRE O LIVRO OU AUTOR]</span></p></div>
+              </div>
+              <blockquote>
+                <span class="quote-mark" aria-hidden="true">“</span>
+                <p><span class="placeholder-text">[INSERIR TRECHO OU CITAÇÃO DO LIVRO]</span></p>
+                <footer>— <span class="placeholder-text">[CARTA / REFERÊNCIA]</span></footer>
+              </blockquote>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide-card slide-panel" data-slide="3" hidden>
+          <div class="paper-texture" aria-hidden="true"></div>
+          <div class="slide-kicker">
+            <span>Parte 04</span><span class="kicker-line"></span><span>Conhecimento adquirido</span>
+          </div>
+          <div class="slide-four slide-content">
+            <div class="reflection-title">
+              <span class="feather" aria-hidden="true">✒</span>
+              <p class="eyebrow">Reflexão pessoal</p>
+              <h1>Conhecimento<br />adquirido</h1>
+              <span class="ornament-rule"><i>✦</i></span>
+            </div>
+            <div class="reflection-paper">
+              <span class="field-label">Notas do apresentador</span>
+              <p><span class="placeholder-text">[INSERIR REFLEXÃO PESSOAL SOBRE A LEITURA]</span></p>
+              <p><span class="placeholder-text">[DESCREVER O PRINCIPAL APRENDIZADO ADQUIRIDO]</span></p>
+              <p><span class="placeholder-text">[RELACIONAR A OBRA A UMA EXPERIÊNCIA OU IDEIA PESSOAL]</span></p>
+              <span class="signature-line">Reflexões</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide-card slide-panel" data-slide="4" hidden>
+          <div class="paper-texture" aria-hidden="true"></div>
+          <div class="slide-kicker">
+            <span>Parte 05</span><span class="kicker-line"></span><span>Encerramento</span>
+          </div>
+          <div class="slide-five slide-content">
+            <div class="closing-emblem" aria-hidden="true"><span class="emblem-ring">✦</span></div>
+            <p class="eyebrow">Fim da correspondência</p>
+            <h1>Obrigado pela atenção.</h1>
+            <p class="closing-subtitle">Perguntas, comentários ou reflexões?</p>
+            <div class="contact-placeholder">
+              <span class="field-label">Contato opcional</span>
+              <span class="placeholder-text">[INSERIR CONTATO OU INFORMAÇÃO FINAL]</span>
+            </div>
+            <div class="closing-flourish" aria-hidden="true">❦</div>
+          </div>
+        </article>
+      </section>
+
+      <footer class="presentation-controls">
+        <button class="nav-button" id="previous-button" aria-label="Slide anterior" disabled>
+          <span aria-hidden="true">←</span><span>Anterior</span>
+        </button>
+        <div class="progress-wrap">
+          <div class="progress-label">
+            <span id="slide-label">Slide 1 de 5</span>
+            <span id="progress-percent">20%</span>
+          </div>
+          <div class="progress-track"><span id="progress-bar" style="width:20%"></span></div>
+          <div class="progress-dots" aria-label="Escolher slide">
+            <button class="active" data-go-to="0" aria-label="Ir para Capa e abertura" aria-current="step"></button>
+            <button data-go-to="1" aria-label="Ir para Sobre a obra"></button>
+            <button data-go-to="2" aria-label="Ir para Curiosidades e trechos"></button>
+            <button data-go-to="3" aria-label="Ir para Conhecimento adquirido"></button>
+            <button data-go-to="4" aria-label="Ir para Encerramento"></button>
+          </div>
+        </div>
+        <button class="nav-button nav-next" id="next-button" aria-label="Próximo slide">
+          <span>Próximo</span><span aria-hidden="true">→</span>
+        </button>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
