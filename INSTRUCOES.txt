@@ -1,17 +1,16 @@
-COMO SUBSTITUIR A VERSAO ANTIGA NO GITHUB
+ATUALIZAÇÃO PARA GITHUB PAGES
 
-1. Abra o repositorio cartas-de-um-diabo-a-seu-aprendiz.
-2. Apague os arquivos da versao antiga do repositorio.
-3. Envie TODOS os arquivos e a pasta assets deste pacote para a raiz do repositorio.
-4. Confirme o commit das alteracoes.
-5. Em Settings > Pages, escolha:
-   Source: Deploy from a branch
-   Branch: main
-   Folder: / (root)
-6. Aguarde a publicacao e atualize a pagina com Ctrl + F5.
+1. Extraia este arquivo ZIP.
+2. Envie todos os arquivos extraídos para a raiz do repositório no GitHub.
+3. Substitua os arquivos antigos quando o GitHub solicitar confirmação.
+4. Aguarde alguns minutos até o GitHub Pages concluir a publicação.
 
-Depois de iniciar a apresentacao, o botao Controle remoto aparece no canto
-superior direito, imediatamente a esquerda do cronometro. Clique nele para
-abrir o QR Code.
+Esta versão contém o version.json e uma verificação sem cache. Quando uma nova
+versão for publicada, a apresentação recarrega automaticamente para evitar que
+o navegador continue exibindo os arquivos antigos.
 
-Computador e celular precisam estar conectados a internet.
+Conteúdo desta atualização:
+- arte original preservada no primeiro slide;
+- biografia dividida em dez tópicos numerados e alternáveis;
+- slides 2 a 5 mantidos no visual aprovado;
+- controle remoto por QR Code mantido.
