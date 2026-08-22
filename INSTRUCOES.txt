@@ -5,12 +5,11 @@ ATUALIZAÇÃO PARA GITHUB PAGES
 3. Substitua os arquivos antigos quando o GitHub solicitar confirmação.
 4. Aguarde alguns minutos até o GitHub Pages concluir a publicação.
 
-Esta versão contém o version.json e uma verificação sem cache. Quando uma nova
-versão for publicada, a apresentação recarrega automaticamente para evitar que
-o navegador continue exibindo os arquivos antigos.
+Esta versão mantém o version.json e a verificação sem cache para carregar a
+publicação nova automaticamente.
 
-Conteúdo desta atualização:
-- arte original preservada no primeiro slide;
-- biografia dividida em dez tópicos numerados e alternáveis;
-- slides 2 a 5 mantidos no visual aprovado;
-- controle remoto por QR Code mantido.
+Alteração principal:
+- os dez tópicos da biografia estão visíveis em cinco fileiras com dois tópicos;
+- não há alternância nem botões nessa área;
+- a arte da capa e os demais slides foram preservados;
+- o controle remoto por QR Code foi mantido.
