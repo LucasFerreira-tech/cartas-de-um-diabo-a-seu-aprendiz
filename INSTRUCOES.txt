@@ -1,0 +1,17 @@
+COMO SUBSTITUIR A VERSAO ANTIGA NO GITHUB
+
+1. Abra o repositorio cartas-de-um-diabo-a-seu-aprendiz.
+2. Apague os arquivos da versao antiga do repositorio.
+3. Envie TODOS os arquivos e a pasta assets deste pacote para a raiz do repositorio.
+4. Confirme o commit das alteracoes.
+5. Em Settings > Pages, escolha:
+   Source: Deploy from a branch
+   Branch: main
+   Folder: / (root)
+6. Aguarde a publicacao e atualize a pagina com Ctrl + F5.
+
+Depois de iniciar a apresentacao, o botao Controle remoto aparece no canto
+superior direito, imediatamente a esquerda do cronometro. Clique nele para
+abrir o QR Code.
+
+Computador e celular precisam estar conectados a internet.
