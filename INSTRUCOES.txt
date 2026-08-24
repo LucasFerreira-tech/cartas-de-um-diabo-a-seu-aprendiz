@@ -8,8 +8,8 @@ ATUALIZAÇÃO PARA GITHUB PAGES
 Esta versão mantém o version.json e a verificação sem cache para carregar a
 publicação nova automaticamente.
 
-Alteração principal:
-- os dez tópicos da biografia estão visíveis em cinco fileiras com dois tópicos;
-- não há alternância nem botões nessa área;
-- a arte da capa e os demais slides foram preservados;
-- o controle remoto por QR Code foi mantido.
+Alterações:
+- conteúdo de Conhecimento adquirido incluído somente em tópicos;
+- títulos e textos provisórios removidos;
+- encerramento identificado como Lucas Ferreira Ribeiro — Turma 1;
+- arte dos slides e controle remoto por QR Code preservados.
