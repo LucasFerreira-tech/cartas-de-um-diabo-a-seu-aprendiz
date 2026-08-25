@@ -5,11 +5,10 @@ ATUALIZAÇÃO PARA GITHUB PAGES
 3. Substitua os arquivos antigos quando o GitHub solicitar confirmação.
 4. Aguarde alguns minutos até o GitHub Pages concluir a publicação.
 
-Esta versão mantém o version.json e a verificação sem cache para carregar a
-publicação nova automaticamente.
+Alteração desta versão:
+- cola privada adicionada ao painel do controle remoto;
+- o texto acompanha automaticamente os slides 1 e 2;
+- a cola aparece somente no celular conectado pelo QR Code;
+- a apresentação exibida no computador permanece limpa.
 
-Alterações:
-- conteúdo de Conhecimento adquirido incluído somente em tópicos;
-- títulos e textos provisórios removidos;
-- encerramento identificado como Lucas Ferreira Ribeiro — Turma 1;
-- arte dos slides e controle remoto por QR Code preservados.
+O version.json e a atualização automática sem cache foram preservados.
