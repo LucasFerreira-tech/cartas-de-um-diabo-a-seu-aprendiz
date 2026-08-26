@@ -1,14 +1,12 @@
-ATUALIZAÇÃO PARA GITHUB PAGES
+ARQUIVOS PRONTOS PARA O GITHUB PAGES
 
-1. Extraia este arquivo ZIP.
-2. Envie todos os arquivos extraídos para a raiz do repositório no GitHub.
-3. Substitua os arquivos antigos quando o GitHub solicitar confirmação.
-4. Aguarde alguns minutos até o GitHub Pages concluir a publicação.
+1. Envie todo o conteúdo desta pasta para a raiz do seu repositório no GitHub.
+2. No GitHub, abra Settings > Pages.
+3. Em Build and deployment, escolha Deploy from a branch.
+4. Selecione a branch main, a pasta /(root) e clique em Save.
 
-Alteração desta versão:
-- cola privada adicionada ao painel do controle remoto;
-- o texto acompanha automaticamente os slides 1 e 2;
-- a cola aparece somente no celular conectado pelo QR Code;
-- a apresentação exibida no computador permanece limpa.
+Esta versão inclui a frase:
+“mundo quase 100% tecnológico (exemplificar)”
 
-O version.json e a atualização automática sem cache foram preservados.
+O arquivo version.json também foi atualizado para ajudar os aparelhos a
+carregarem a versão nova mesmo quando houver conteúdo antigo no cache.
